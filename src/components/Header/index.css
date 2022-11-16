@@ -1,0 +1,36 @@
+.header-container {
+  background-color: #272727;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  height: 45px;
+  margin-left: 50px;
+}
+.unordered-list {
+  display: flex;
+}
+.list-item {
+  list-style-type: none;
+  margin-left: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.logout-btn {
+  margin-right: 50px;
+  font-size: 18px;
+  color: white;
+  background-color: #4f46e5;
+  padding: 7px;
+  border-width: 0px;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+}
